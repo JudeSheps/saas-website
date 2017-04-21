@@ -1,10 +1,28 @@
 html {
   font-family: "Open Sans", sans-serif;
+  color: #333;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.desk-a {
+  margin-left: 1em;
+}
+
+.mobile-a {
+  display: block;
+  text-align: center;
+  color: #666;
+  background-color: #f2f2f2;
+  padding: .5em 2em;
+}
+
+.mobile-a:hover {
+  background-color: #999;
+color: #fff;
 }
 
 .headerbar {
@@ -35,7 +53,7 @@ h1 {
 
 h3 {
   font-family: Montserrat, sans-serif;
-  color: #000;
+  color: #333;
 }
 
 ul {
@@ -55,7 +73,7 @@ ul {
 .btn {
   background-color: #fff;
   border-radius: 4px;
-  border: 2px solid #FEAF67;
+  border: none;
   color: #666;
 }
 
@@ -86,12 +104,22 @@ a .banner-btn {
   color: #FEAF67;
 }
 
+.nav-desk {
+  display: none;
+}
+
 .nav {
   display: none;
 }
 
+.nav-mobile {
+    position: absolute;
+    top: .3em;
+    right: .5em;
+    z-index: 1;
+}
+
 .nav-check {
-  position: absolute;
   top: -3em;
 }
 
@@ -101,8 +129,8 @@ a .banner-btn {
 
 .nav-label {
   cursor: pointer;
-  display: inline-block;
-  width: 30px;
+  display: block;
+  width: 25px;
 }
 
 .nav-open,
@@ -211,6 +239,7 @@ hr {
 
   .unit-right {
     padding-left: .25rem;
+  }
 
 }
 
@@ -226,6 +255,18 @@ hr {
   .img-4 {
     display: block;
   }
+
+  .nav-desk {
+    display: inline-block;
+  }
+
+  .nav {
+      display: inline-block;
+    }
+
+  .nav-mobile {
+      display: none;
+    }
 
 }
 

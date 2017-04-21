@@ -8,6 +8,10 @@ a {
   color: #fff;
 }
 
+.a-footer {
+  color: #666;
+}
+
 .desk-a {
   margin-left: 1em;
 }
@@ -22,11 +26,11 @@ a {
 
 .mobile-a:hover {
   background-color: #999;
-color: #fff;
+  color: #fff;
 }
 
 .headerbar {
-  background-color: #FEAF67;
+  background-color: #feaf67;
   color: #fff;
 }
 
@@ -38,7 +42,6 @@ color: #fff;
   width: 40px;
   display: inline-block;
 }
-
 
 .brain {
   margin: 0;
@@ -61,7 +64,7 @@ ul {
 }
 
 .footerbar {
-  background-color: #FEAF67;
+  background-color: #feaf67;
   color: #fff;
 }
 
@@ -78,8 +81,8 @@ ul {
 }
 
 .btn:hover {
-  background-color: #FEAF67;
-  border-color: #FEAF67;
+  background-color: #feaf67;
+  border-color: #feaf67;
 }
 
 a .banner-btn {
@@ -91,17 +94,17 @@ a .banner-btn {
 }
 
 .signup-btn {
-  background-color: #FEAF67;
+  background-color: #feaf67;
   border-radius: 4px;
   border: 2px solid #fff;
   color: #fff;
-  padding: .2em .4em .2em;
+  padding: .2em .4em;
   margin-left: 1em;
 }
 
 .signup-btn:hover {
   background-color: #fff;
-  color: #FEAF67;
+  color: #feaf67;
 }
 
 .nav-desk {
@@ -113,10 +116,10 @@ a .banner-btn {
 }
 
 .nav-mobile {
-    position: absolute;
-    top: .3em;
-    right: .5em;
-    z-index: 1;
+  position: absolute;
+  top: .3em;
+  right: .5em;
+  z-index: 1;
 }
 
 .nav-check {
@@ -152,18 +155,17 @@ a .banner-btn {
 }
 
 [type="checkbox"] + label::before {
-    content: " ";
-    display: block;
-    height: 1.8em;
-    margin-right: .3em;
-    position: absolute;
-    vertical-align: middle;
-    top: -3em;
-    width: 1.8em;
-    background-color: #fff;
-    background-size: cover;
-    border: 2px solid #666;
-    line-height: inherit;
+  content: " ";
+  display: block;
+  height: 1.8em;
+  margin-right: .3em;
+  position: absolute;
+  top: -3em;
+  width: 1.8em;
+  background-color: #fff;
+  background-size: cover;
+  border: 2px solid #666;
+  line-height: inherit;
 }
 
 .img-2,
@@ -199,9 +201,9 @@ hr {
 
 .form-button {
   padding: .375em 2em .42em;
-  background-color: #FEAF67;
+  background-color: #feaf67;
   border: 3px solid;
-  border-color: #FEAF67;
+  border-color: #feaf67;
   color: #fff;
 }
 
@@ -261,12 +263,12 @@ hr {
   }
 
   .nav {
-      display: inline-block;
-    }
+    display: inline-block;
+  }
 
   .nav-mobile {
-      display: none;
-    }
+    display: none;
+  }
 
 }
 

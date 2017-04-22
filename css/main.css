@@ -14,6 +14,25 @@ a {
 
 .desk-a {
   margin-left: 1em;
+  padding: .1em .4em;
+}
+
+.desk-a:hover {
+  background-color: #666;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  padding: .1em .4em;
+  margin-left: 1em;
+}
+
+.btn-current {
+  background-color: #fff;
+  border-radius: 4px;
+  border: none;
+  color: #feaf67;
+  padding: .1em .4em;
+  margin-left: 1em;
 }
 
 .mobile-a {
@@ -21,7 +40,12 @@ a {
   text-align: center;
   color: #666;
   background-color: #f2f2f2;
-  padding: .5em 2em;
+  padding: .5em 1.3em;
+}
+
+.mobile-current {
+  background-color: #feaf67;
+  color: #fff;
 }
 
 .mobile-a:hover {
@@ -102,6 +126,10 @@ a .banner-btn {
   margin-left: 1em;
 }
 
+.signup-current {
+  background-color: #666;
+}
+
 .signup-btn:hover {
   background-color: #fff;
   color: #feaf67;
@@ -173,6 +201,10 @@ a .banner-btn {
 .img-4,
 .img-5 {
   display: none;
+}
+
+.staff {
+  color: #666;
 }
 
 section {

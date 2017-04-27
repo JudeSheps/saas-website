@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <header>
+  <header class="push-2">
     <div class="grid gutter-half headerbar">
       <div class="unit xs-2-3 s-1-2">
         <div class="pad-t-1-2 logowrapper">
@@ -50,6 +50,21 @@
 
   <main class="wrapper gutter">
     <form method="POST" action="https://formspree.io/shep0057@algonquinlive.com">
+
+      <fieldset class="pad-t pad-b-1-2">
+        <legend class="tera push-half">Choose Your Package</legend>
+        <div class="grid">
+          <div class="unit-left unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <div class="push">
+              <select class="push" style="border-color:#666" id="province" name="province">
+                <option value="">Free</option>
+                <option>Standard</option>
+                <option>Plus</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </fieldset>
 
       <fieldset class="pad-t pad-b-2">
         <legend class="tera pad-t-2 push-half">Personal details</legend>
@@ -129,7 +144,7 @@
       </fieldset>
 
       <div class="push pad-b-2 text-center">
-        <button class="form-button" type="submit">Apply</button>
+        <button class="form-button" type="submit">Sign-Up</button>
       </div>
     </form>
   </main>

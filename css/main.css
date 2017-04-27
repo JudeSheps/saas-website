@@ -3,6 +3,11 @@ html {
   color: #333;
 }
 
+.img-maxheight {
+  max-height: 380px;
+  overflow: hidden;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -14,7 +19,7 @@ a {
 
 .desk-a {
   margin-left: 1em;
-  padding: .1em .4em;
+  padding: .3em .5em;
 }
 
 .desk-a:hover {
@@ -22,7 +27,7 @@ a {
   border-radius: 4px;
   border: none;
   color: #fff;
-  padding: .1em .4em;
+  padding: .3em .5em;
   margin-left: 1em;
 }
 
@@ -31,7 +36,7 @@ a {
   border-radius: 4px;
   border: none;
   color: #feaf67;
-  padding: .1em .4em;
+  padding: .3em .5em;
   margin-left: 1em;
 }
 
@@ -40,7 +45,7 @@ a {
   text-align: center;
   color: #666;
   background-color: #f2f2f2;
-  padding: .5em 1.3em;
+  padding: .5em 3em;
 }
 
 .mobile-current {
@@ -145,7 +150,7 @@ a .banner-btn {
 
 .nav-mobile {
   position: absolute;
-  top: .3em;
+  top: .4em;
   right: .5em;
   z-index: 1;
 }
@@ -237,6 +242,24 @@ hr {
   border: 3px solid;
   border-color: #feaf67;
   color: #fff;
+}
+
+thead {
+  background-color: #feaf67;
+  color: #fff;
+}
+
+tbody th {
+  font-weight: bold;
+  font-style: italic;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #e2e2e2;
+}
+
+table {
+  min-width: 50em;
 }
 
 @media only screen and (min-width: 25em) {

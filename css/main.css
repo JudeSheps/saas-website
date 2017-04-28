@@ -263,7 +263,7 @@ tbody tr:nth-child(odd) {
 }
 
 table {
-  min-width: 50em;
+  min-width: 15em;
 }
 
 .table-features {
@@ -272,10 +272,6 @@ table {
 
 .table-details {
   width: 8em;
-}
-
-table {
-  min-width: 15em;
 }
 
 @media only screen and (min-width: 25em) {

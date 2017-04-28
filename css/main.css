@@ -266,6 +266,18 @@ table {
   min-width: 50em;
 }
 
+.table-features {
+  width: 3em;
+}
+
+.table-details {
+  width: 8em;
+}
+
+table {
+  min-width: 15em;
+}
+
 @media only screen and (min-width: 25em) {
 
   .img-1,
